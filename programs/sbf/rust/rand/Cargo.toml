@@ -11,7 +11,7 @@ edition = "2021"
 
 [dependencies]
 getrandom = { version = "0.1.14", features = ["dummy"] }
-rand = "0.7"
+rand = "0.8"
 solana-program = { path = "../../../../sdk/program", version = "=1.15.0" }
 
 [lib]
